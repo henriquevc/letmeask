@@ -1,15 +1,11 @@
-import { Button } from './components/Button'
+import { NewRoom } from "./pages/NewRoom";
+
+import './styles/global.scss'
 
 function App() {
   return (
     <div>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
+      <NewRoom />
     </div>
 
   );
